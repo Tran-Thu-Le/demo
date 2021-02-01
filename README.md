@@ -1,4 +1,7 @@
 # demo
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Tran-Thu-Le/demo/HEAD)
+
 run jupyter notebook online using Google Colab
 
 1. Go to this [link](https://colab.research.google.com/github/) and press Tab GitHub
