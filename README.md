@@ -12,3 +12,27 @@ run jupyter notebook online using Google Colab
 3. In Tab GitHub, past the link. Press search-symbol
 4. Run the code by clicking the correspoding triangle-symbol in the left of its line
 
+
+theoriginal  `.yml` should be
+
+name: pDL
+channels:
+  - conda-forge
+  - pytorch
+  - dglteam
+dependencies:
+  - python=3.8
+  - pip
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - pytorch>=1.4
+  - torchvision>=0.5
+  - torchtext
+  - opencv
+  - librosa
+  - nb_conda_kernels
+  - dgl>=0.4.3
+  - pip:
+    - torchviz
+
