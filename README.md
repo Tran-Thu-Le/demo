@@ -14,7 +14,7 @@ run jupyter notebook online using Google Colab
 
 
 theoriginal  `.yml` should be
-
+```
 name: pDL
 channels:
   - conda-forge
@@ -35,4 +35,5 @@ dependencies:
   - dgl>=0.4.3
   - pip:
     - torchviz
+```
 
