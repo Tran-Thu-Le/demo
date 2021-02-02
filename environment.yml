@@ -1,20 +1,8 @@
-name: pDL
+name: demo_torch
 channels:
-  - conda-forge
   - pytorch
-  - dglteam
 dependencies:
-  - python=3.8
-  - pip
+  - numpy
   - matplotlib
-  - jupyter
-  - jupyterlab
   - pytorch>=1.4
-  - torchvision>=0.5
-  - torchtext
-  - opencv
-  - librosa
-  - nb_conda_kernels
-  - dgl>=0.4.3
-  - pip:
-    - torchviz
+  - scipy
