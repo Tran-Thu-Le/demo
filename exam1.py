@@ -5,3 +5,5 @@ class my_object(object):
 if __name__ == '__main__':    
     a=my_object()
     a.show()
+    b=my_object()
+    a.show()
